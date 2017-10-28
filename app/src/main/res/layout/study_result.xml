@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TableRow
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right">
+
+        <TextView
+            android:id="@+id/study_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/edit_margin_top"
+            android:text="@string/txt_studyresult"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold" />
+
+        <ImageView android:id="@+id/img_sinhvien" />
+
+    </TableRow>
+
+
+</LinearLayout>

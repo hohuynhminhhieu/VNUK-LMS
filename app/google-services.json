@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "801632590932",
+    "firebase_url": "https://vnuk-lms.firebaseio.com",
+    "project_id": "vnuk-lms",
+    "storage_bucket": "vnuk-lms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801632590932:android:324c3aad4c0cc8b4",
+        "android_client_info": {
+          "package_name": "vnuk.edu.vn.cse15.vnuk_lms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801632590932-kp5nv868csu9lolms6vdmqkaujqv4f01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vnuk.edu.vn.cse15.vnuk_lms",
+            "certificate_hash": "abae836fea4f352ce67719aae27ef6f22ef628a0"
+          }
+        },
+        {
+          "client_id": "801632590932-tjc2ftuqa4kj088e6m9k3hklpo4c5mhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaEvuIBviPLE77BUvCXX3YjXlIDRTO_tY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801632590932-tjc2ftuqa4kj088e6m9k3hklpo4c5mhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
