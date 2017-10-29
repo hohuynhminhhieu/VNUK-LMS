@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".StudentHomepage"></activity>
+        <activity android:name=".StudentResult"></activity>
+        <activity android:name=".DetailStudyResultMark"></activity>
     </application>
 
 </manifest>

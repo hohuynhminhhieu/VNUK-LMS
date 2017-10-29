@@ -1,5 +1,6 @@
 package vnuk.edu.vn.cse15.vnuk_lms;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -41,15 +42,18 @@ public class MainActivity extends AppCompatActivity {
 
                         if(dataSnapshot.exists()){
                             if(dataSnapshot.getValue(User.class).getAccess() == 0){
-                                text = "Đăng nhập thành công student!";
+                                DataTemp.currentUser = dataSnapshot.getValue(User.class);
+                                Toast.makeText(getApplicationContext(), "Đăng nhập thành công student", Toast.LENGTH_LONG).show();
+                                Intent intent = new Intent(MainActivity.this, StudentHomepage.class);
+                                startActivity(intent);
                             }else{
-                                text = "Đăng nhập thành công teacher";
+                                Toast.makeText(getApplicationContext(), "Đăng nhập thành công teacher", Toast.LENGTH_LONG).show();
                             }
                         }else{
-                            text = "Đăng nhập thất bại";
+                            Toast.makeText(getApplicationContext(), "Đăng nhập thất bại", Toast.LENGTH_LONG).show();
                         }
 
-                        Toast.makeText(getApplicationContext(), text, Toast.LENGTH_LONG).show();
+
                     }
 
                     @Override
