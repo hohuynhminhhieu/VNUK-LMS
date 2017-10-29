@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!--Hiển thị tên môn học hoặc hiển thị tên học kỳ hoặc tên cột điểm chi tiết-->
+    <TextView
+        android:id="@+id/title"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+
+    <!--Hiển thị điểm trung bình môn hoặc điểm trung bình học kỳ hoặc điểm chi tiết-->
+    <TextView
+        android:id="@+id/subjectk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+
+</LinearLayout>

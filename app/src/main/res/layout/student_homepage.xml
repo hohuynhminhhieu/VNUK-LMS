@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:gravity="center"
     android:orientation="vertical">
 
-    <!-- Phần ni hiển thị ảnh sinh viên -->
+    <!-- Hiển thị ảnh sinh viên -->
 
     <ImageView
         android:id="@+id/img_sinhvien"
@@ -19,7 +17,7 @@
         android:layout_marginRight="@dimen/edit_margin_right"
         android:layout_marginTop="@dimen/edit_margin_top"/>
 
-    <!-- Phần ni để hiển thị tên sinh viên -->
+    <!-- Hiển thị tên sinh viên -->
 
     <TextView
         android:id="@+id/txt_sinhvien"
@@ -86,34 +84,6 @@
         android:layout_marginTop="@dimen/edit_margin_top"
         android:background="@color/Cardinal"
         android:text="@string/btn_ls_lecture"
-        android:textAllCaps="false"
-        android:textColor="@color/White"
-        android:textSize="@dimen/text_size_large"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/btn_ls_notices"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/edit_margin_left"
-        android:layout_marginRight="@dimen/edit_margin_right"
-        android:layout_marginTop="@dimen/edit_margin_top"
-        android:background="@color/Cardinal"
-        android:text="@string/btn_ls_notices"
-        android:textAllCaps="false"
-        android:textColor="@color/White"
-        android:textSize="@dimen/text_size_large"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/btn_feedback"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/edit_margin_left"
-        android:layout_marginRight="@dimen/edit_margin_right"
-        android:layout_marginTop="@dimen/edit_margin_top"
-        android:background="@drawable/button"
-        android:text="@string/btn_feedback"
         android:textAllCaps="false"
         android:textColor="@color/White"
         android:textSize="@dimen/text_size_large"

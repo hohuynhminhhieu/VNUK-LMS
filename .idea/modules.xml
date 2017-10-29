@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VNUK-LMS.iml" filepath="$PROJECT_DIR$/VNUK-LMS.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vnuklmslogin - A Vu.iml" filepath="$PROJECT_DIR$/vnuklmslogin - A Vu.iml" />
     </modules>
   </component>
 </project>

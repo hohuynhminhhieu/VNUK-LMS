@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:background="@color/White">
 
-    <!-- Phần ni hiển thị ảnh giảng viên -->
+    <!-- Hiển thị ảnh giảng viên -->
 
     <ImageView
         android:id="@+id/img_giangvien"
@@ -17,7 +17,7 @@
         android:layout_height="150dp"
         android:layout_gravity="center" />
 
-    <!-- Phần ni để hiển thị tên giản viên -->
+    <!-- Giển thị tên giảng viên -->
 
     <TextView
         android:id="@+id/txt_giangvien"
@@ -74,30 +74,6 @@
         android:layout_marginTop="@dimen/edit_margin_top"
         android:background="@color/Cardinal"
         android:text="@string/btn_ls_lecture"
-        android:textAllCaps="false"
-        android:textColor="@color/White"
-        android:textSize="@dimen/text_size_large"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/btn_ls_notices"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/edit_margin_top"
-        android:background="@color/Cardinal"
-        android:text="@string/btn_ls_notices"
-        android:textAllCaps="false"
-        android:textColor="@color/White"
-        android:textSize="@dimen/text_size_large"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/btn_feedback"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/edit_margin_top"
-        android:background="@drawable/button"
-        android:text="@string/btn_feedback"
         android:textAllCaps="false"
         android:textColor="@color/White"
         android:textSize="@dimen/text_size_large"

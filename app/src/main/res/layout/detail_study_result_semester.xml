@@ -5,22 +5,23 @@
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
+    <!--Hiển thị tên học kỳ-->
     <TextView
-        android:id="@+id/study_result"
+        android:id="@+id/semester_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
         android:layout_marginLeft="@dimen/edit_margin_left"
         android:layout_marginRight="@dimen/edit_margin_right"
         android:layout_marginTop="@dimen/edit_margin_top"
-        android:text="@string/txt_studyresult"
+        android:text=""
         android:textColor="@color/Black"
         android:textSize="@dimen/text_size_title"
         android:textStyle="bold" />
 
-    <!--Hiển thị điểm trung bình cả học kỳ-->
+    <!--Hiển thị bảng điểm tổng kết các môn trong học kỳ-->
     <ListView
-        android:id="@+id/ls_semester"
+        android:id="@+id/detail_mark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/edit_margin_bottom"
