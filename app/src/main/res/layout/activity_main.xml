@@ -39,6 +39,7 @@
         android:layout_below="@+id/std_id"
         android:layout_marginTop="@dimen/edit_margin_top"
         android:hint="@string/hint_pass"
+        android:inputType="textPassword"
         android:padding="10dp"
         android:textSize="@dimen/text_size_large"
         android:layout_marginLeft="@dimen/edit_margin_left"

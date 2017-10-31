@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "801632590932-bmj6i319ii1bq6hf8a6543608tk80p7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vnuk.edu.vn.cse15.vnuk_lms",
+            "certificate_hash": "66911d839c32c54783befcdc740044ac9f653edc"
+          }
+        },
+        {
           "client_id": "801632590932-kp5nv868csu9lolms6vdmqkaujqv4f01.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
